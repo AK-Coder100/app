@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    text-align: -webkit-center;
+    background-color: bisque;
+    min-height: calc( 100vh - 80px );
+}
+
+header{
+    width: 100vw;
+    font-size: xx-large;
+    text-align: center;
+    background-color: blue;
+}
+
+.table{
+    margin-top: 50px;
+    width: min( 80% , 400px);
+}
+
+footer{
+    width: 100vw;
+    height: 80px;
+    font-size: xx-large;
+    text-align: center;
+    background-color: orchid;
+}
